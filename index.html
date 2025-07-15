@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Vamsi">
+        <meta name="viewport" content="width=device-width,initial-scale=1"> <!--for mobile friendly lay out-->
+        <title>Madabathula_Vamsi.portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>MADABATHULA VAMSI</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="home">
+            <img src="image.jpeg" alt="Profile Photo">
+            <h2>Hello, I'm a Frontend Developer</h2>
+            <p>Passionate about building beautiful websites.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi,I'm a final-year CSE student.Skilled in HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>weather App</h3>
+                <p>Shows real-time weather using API</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Enter Your Name<span style="color: red;">*</span></label>
+                <input id="name" type="text" placeholder="Your Name" required>
+                <label for="email">Enter Your Email<span style="color: red;">*</span></label>
+                <input id="email" type="email" placeholder="Your Email" required>
+                <label for="message" >Message</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Madabathula Vamsi. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
