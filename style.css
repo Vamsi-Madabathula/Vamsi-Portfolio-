@@ -68,3 +68,9 @@ footer {
 #contact button:hover {
   background-color: #0056b3;
 }
+label{
+ margin-left:-365px;
+}
+input{
+ margin-left:768px;
+}
