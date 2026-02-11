@@ -74,3 +74,6 @@ label{
 input{
  margin-left:881px;
 }
+#name, #email, #message {
+    margin-left: 762px;
+}
