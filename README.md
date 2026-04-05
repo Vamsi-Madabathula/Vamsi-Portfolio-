@@ -101,7 +101,7 @@ You can reach me through the Contact section on my portfolio or connect with me 
 
 GitHub: https://github.com/vamsi-madabathula
 
-📄 License
+📄 License    
 
 This project is open-source and free to use for learning and inspiration.
 
